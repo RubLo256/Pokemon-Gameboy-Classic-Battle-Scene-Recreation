@@ -1,0 +1,154 @@
+body {
+    font-family: monospace;
+    font-size: 20px;
+  }
+  .game {
+    height: 480px;
+    width: 800;
+  }
+  
+  .menu {
+    height: 120px;
+    width: 943px;
+    background-color: #333;
+    position: absolute;
+    bottom: 170px;
+    padding: 15px 0 15px 0;
+    border: solid 4px;
+    border-radius: 7px;
+  }
+  
+  .game {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTFwXeDE1o1ZbvU2c_Wywq7w7kIzq-Xvo392H61GvbyWhFD_APeviXIKBnKjlqN-4hmnU&usqp=CAU');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: solid 3px;
+    border-radius: 8px 8px 8px 8px;
+    height: 480px;
+  }
+  
+  .Ash {
+    height: 300px;
+  }
+  
+  .Ron {
+    height: 180px;
+  }
+  
+  .Ash .pokemon {
+    position: absolute;
+    left: 1000px;
+    width: 105px;
+    top: 200px;
+  }
+  
+  .Ron .pokemon {
+    position: absolute;
+    right: 1000px;
+    bottom: 200px;
+    width: 160px;
+  }
+  
+  .Ash {
+    postion: relative;
+  }
+  
+  .Ron {
+    position: relative;
+  }
+  
+  .stats {
+    background: #111;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: white;
+    padding: 12px;
+    }
+  
+  .Ash .stats {
+    position: absolute;
+    top: 96px;
+    left: 40px;
+    width: 320px;
+   }
+  
+  .Ron .stats {
+    position: absolute;
+    bottom: 250px;
+    right: 40px;
+    width: 320px;
+  }
+  
+  .stats .hp-count:before {
+    content:'HP: '
+   }
+  
+  .stats .level:before {
+    content:"LVL"
+  }
+  
+  .stats .pokeballs {
+    display: inline-block;
+  }
+  
+  .stats .pokeballs .pokeball {
+    position: relative;
+    float: left;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c97149fb-6302-44ad-87ab-65b00c64d197/d38tzu9-815c7be5-5094-4524-a2ca-7a1fc302ebde.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9jOTcxNDlmYi02MzAyLTQ0YWQtODdhYi02NWIwMGM2NGQxOTcvZDM4dHp1OS04MTVjN2JlNS01MDk0LTQ1MjQtYTJjYS03YTFmYzMwMmViZGUucG5nIn1dXX0.8DTj93_gbW8ROx8NA7R_uJTbKENTct-aj6yZqYscbzU');
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .stats .hp-count {
+    float: right;
+  }
+  
+  .menu .message {
+    float: left;
+    width: 50%;
+    color: #fff;
+    font-family: monospace;
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+  }
+  
+  .menu .actions {
+    float:left;
+    width:50%
+  }
+  
+  .menu .actions button {
+    position: relative;
+    float: left;
+    background: #666;
+    border: 3px solid #888;
+    border-radius: 4px;
+    color: #fff;
+    font-family: monospace;
+    font-size: 20px;
+    line-height:14px;
+    margin: 4px;
+    padding: 16px;
+    width: calc(50% - 8px);
+    height: calc(50% - 8px);
+  }
+  
+  .menu .actions button, 
+  .menu .actions button:hover, 
+  .menu .actions button:active {
+    outline: none;
+  }
+  
+  .menu .actions button:hover {
+    background: #777;
+    border-color: #999;
+  }
+  
+  .menu .actions button:active {
+    background: #555;
+    border-color: #666;
+  }
+  
